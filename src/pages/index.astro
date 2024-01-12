@@ -1,0 +1,44 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="">
+	<main>
+		<div class="absolute inset-y-0 left-0 flex items-center md:hidden">
+			<!-- Mobile menu button-->
+			<h1 class="flex flex-1 flex-wrap content-center justify-center center items-center bg-orange-600 text-red-700 animate-pulse delay-100 object-center"aria-controls="mobile-menu" aria-expanded="false">
+			  Please upgrade to a bigger screen to see this page
+			</h1>
+		  </div>
+		<nav class="hidden md:block bg-gray-800">
+			<div class="md:block mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+			  <div class="relative flex h-16 items-center justify-between">
+				<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+				  <!-- Mobile menu button-->
+				  <h1 class="flex flex-1 flex-wrap content-center justify-center center items-center bg-orange-600 text-red-700 animate-pulse delay-100 object-center"aria-controls="mobile-menu" aria-expanded="false">
+					Please upgrade to a bigger screen to see this page
+				  </h1>
+				</div>
+				<div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+				  <div class="flex flex-shrink-0 items-center">
+					<img class="h-8 w-auto" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYS74aQerQqii3fZiDUzcl-eKoaxciyJWW58yxVo2iTYGlZZk2oyeeq4KOlndmXQ7KAEA1Q9vVohS4QdOh_586lJWba2=w1920-h878" alt="Your Company">
+				  </div>
+				  <div class="hidden sm:ml-6 sm:block">
+					<div class="flex space-x-4">
+					  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+					  <a href="#" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Dashboard</a>
+					  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Team</a>
+					  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</a>
+					  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
+					</div>
+				  </div>
+				</div>
+				</div>
+			  </div>
+			</div>
+		  </nav>
+		  
+	</main>
+</Layout>
+
